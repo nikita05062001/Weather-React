@@ -1,0 +1,61 @@
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 400px;
+}
+.info {
+  background-color: rgb(46, 235, 156);
+  text-align: center;
+  height: 100%;
+  width: 300px;
+  position: relative;
+  color: rgb(0, 73, 0);
+}
+.info-text {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.form {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.form-content {
+  width: 600px;
+  height: 100%;
+  font-size: 18px;
+}
+.form-info {
+  background-color: aqua;
+  margin-left: 25px;
+  margin-top: 25px;
+  height: 200px;
+  width: 500px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: blue;
+}
+.weather {
+  font-size: 30px;
+}
+form input {
+  width: 415px;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+form button {
+  background-color: rgb(170, 252, 217);
+  border: none;
+  font-size: 25px;
+  padding: 4px;
+  border-radius: 10px;
+  color: rgb(0, 73, 0);
+  cursor: pointer;
+}
